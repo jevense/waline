@@ -1,6 +1,6 @@
-edition: 1.0.0          
+edition: 1.0.0
 name: Waline
-access: default
+access: waline
 
 vars:
   region: cn-beijing
@@ -13,7 +13,7 @@ services:
     component: nodejs-runtime
     actions:
       pre-deploy:
-        - run: npm install --production 
+        - run: npm install --production
           path: ./
     props:
       region: ${vars.region}
@@ -22,7 +22,7 @@ services:
         name: ${vars.service.name}
         description: ${vars.service.description}
         runtime: nodejs14
-        ossBucket: waline
+        ossBucket: yichen-waline
         codeUri: ./
         handler: index.handler
         memorySize: 256

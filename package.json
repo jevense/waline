@@ -1,19 +1,19 @@
 {
-  "name": "aliyun-fc-starter",
+  "name": "waline-aliyun-fc-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walinejs/aliyun-fc-starter.git"
+    "url": "git+https://github.com/jevense/waline.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/walinejs/aliyun-fc-starter/issues"
+    "url": "https://github.com/jevense/waline/issues"
   },
-  "homepage": "https://github.com/walinejs/aliyun-fc-starter#readme",
+  "homepage": "https://github.com/jevense/waline#readme",
   "dependencies": {
     "@serverless-devs/fc-http": "^1.0.0",
     "@waline/vercel": "^1.5.0"
